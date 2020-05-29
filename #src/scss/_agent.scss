@@ -1,0 +1,28 @@
+.agent {
+	min-height: 340px;
+	position: relative;
+	padding: 60px 0 80px 0;
+	@include blur(url('../img/Layer_5.jpg'));
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	&__border {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100px;
+		height: 100px;
+		line-height: 40px;
+		border: 1px solid #fff;
+		border-radius: 50%;
+	}
+	&__img {
+		width: 50px;
+		img {
+			width: 100%;
+		}
+	}
+}
