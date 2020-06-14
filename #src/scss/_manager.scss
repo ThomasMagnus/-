@@ -1,0 +1,18 @@
+.manager {
+	padding: 60px 0 78px 0;
+	position: relative;
+	min-height: 342px;
+	@include blur(url('../img/Layer_14.png'));
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__img {
+		width: 45px;
+		img {
+			width: 100%;
+		}
+		line-height: 30px;
+	}
+}

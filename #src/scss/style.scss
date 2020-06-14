@@ -81,6 +81,7 @@ button {
 .title {
 	font-family: "Roboto-Bold";
 	font-size: 26px;
+	text-transform: uppercase;
 }
 
 .base__line {
@@ -106,6 +107,7 @@ button {
 	color: #fff;
 	font-size: 19px;
 	margin-top: 20px;
+	text-align: center;
 }
 
 
@@ -115,3 +117,8 @@ button {
 @import "work";
 @import "agent";
 @import "price";
+@import "consultation";
+@import "manager";
+@import "scheme";
+@import "feedback";
+@import "slider";

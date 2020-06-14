@@ -1,0 +1,52 @@
+.feedback {
+	padding: 50px 0 60px 0;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	&__descr {
+		position: relative;
+		display: flex;
+		overflow: hidden;
+		justify-content: center;
+		margin-top: 35px;
+	}
+	&__user {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex: 0 1 33.333%;
+		// transform: scale(0.6);
+		// opacity: 0.5;
+		// transition: all 0.3s linear;
+	}
+	&__img {
+		width: 113px;
+		img {
+			width: 100%;
+		}
+	}
+	&__name {
+		font-family: "Roboto-Bold";
+		font-size: 18px;
+		margin-top: 22px;
+	}
+	&__description {
+		margin-top: 15px;
+	}
+	&__btns {
+		display: flex;
+		position: absolute;
+		top: 30px;
+	}
+	&__btn {
+		margin: 0 100px;
+		width: 14px;
+		img {
+			cursor: pointer;
+			width: 100%;
+		}
+	}
+}
