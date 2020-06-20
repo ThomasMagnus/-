@@ -1325,8 +1325,218 @@ template {
   width: 100%;
 }
 
+.questions {
+  min-height: 436px;
+  padding: 62px 0 79px 0;
+  position: relative;
+}
+
+.questions::before {
+  content: '';
+  background: url("../img/Layer_19.jpg") center center/cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  z-index: -1;
+}
+
+.questions::after {
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.questions__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.questions__feed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.questions__title {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #25333c;
+  width: 898px;
+  padding: 15px 0;
+}
+
+.questions__maintitle {
+  font-family: "Roboto-Bold";
+  font-size: 19px;
+}
+
+.questions__form {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 898px;
+  padding: 13px 0 24px 0;
+}
+
+.questions__input {
+  border-radius: 50px;
+  border-style: none;
+  width: 267px;
+  height: 45px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.questions__text {
+  margin-top: 5px;
+  width: 810px;
+}
+
+.questions__textarea {
+  border-radius: 10px;
+  width: 100%;
+  height: 73px;
+  resize: none;
+  padding: 15px 0 0 20px;
+  outline: none;
+}
+
+.questions__btn {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding: 20px 0 35px 0;
+  background-color: #25333c;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__text {
+  margin-left: 43px;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__text {
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer__line {
+  height: 1px;
+  background-color: #677177;
+  margin-top: 25px;
+}
+
+.footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.footer__left {
+  width: 546px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__corp {
+  color: #677177;
+}
+
+.footer__politic {
+  color: #677177;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer__politic:hover {
+  color: #ec644b;
+  text-decoration: underline;
+}
+
+.footer__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__site {
+  color: #677177;
+  margin-right: 20px;
+}
+
 .webp .header::before { background: url(../img/airplan.webp) center center/cover no-repeat; }
 
 .webp .agent::before { background: url(../img/Layer_5.webp) center center/cover no-repeat; }
 
 .webp .manager::before { background: url(../img/Layer_14.webp) center center/cover no-repeat; }
+
+.webp .questions::before { background: url(../img/Layer_19.webp) center center/cover no-repeat; }

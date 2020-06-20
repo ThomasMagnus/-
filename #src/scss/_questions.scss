@@ -1,0 +1,60 @@
+.questions {
+	min-height: 436px;
+	padding: 62px 0 79px 0;
+	position: relative;
+	@include blur(url('../img/Layer_19.jpg'));
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__feed {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__title {
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		background-color: #25333c;
+		width: 898px;
+		padding: 15px 0;
+	}
+	&__maintitle {
+		font-family: "Roboto-Bold";
+		font-size: 19px;
+	}
+	&__form {
+		background-color: rgba($color: #fff, $alpha: .7);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 898px;
+		padding: 13px 0 24px 0;
+	}
+	&__input {
+		border-radius: 50px;
+		border-style: none;
+		width: 267px;
+		height: 45px;
+		padding-left: 20px;
+		outline: none;
+	}
+	&__text {
+		margin-top: 5px;
+		width: 810px;
+	}
+	&__textarea {
+		border-radius: 10px;
+		width: 100%;
+		height: 73px;
+		resize: none;
+		padding: 15px 0 0 20px;
+		outline: none;
+	}
+	&__btn {
+		margin-top: 20px;
+		text-transform: uppercase;
+	}
+}

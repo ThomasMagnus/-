@@ -1,0 +1,57 @@
+.footer {
+	padding: 20px 0 35px 0;
+	background-color: #25333c;
+	&__logo {
+		display: flex;
+		align-items: center;
+	}
+	&__text {
+		margin-left: 43px;
+	}
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__text {
+		font-family: "Roboto-Bold";
+		font-size: 16px;
+		color: #fff;
+	}
+	&__line {
+		height: 1px;
+		background-color: #677177;
+		margin-top: 25px;
+	}
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 15px;
+	}
+	&__left {
+		width: 546px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__corp {
+		color: #677177;
+	}
+	&__politic {
+		color: #677177;
+		text-decoration: none;
+		font-size: 12px;
+		&:hover {
+			color: $main-color;
+			text-decoration: underline;
+		}
+	}
+	&__right {
+		display: flex;
+		align-items: center;
+	}
+	&__site {
+		color: #677177;
+		margin-right: 20px;
+	}
+}
