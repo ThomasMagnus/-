@@ -3,6 +3,9 @@
 	padding: 62px 0 79px 0;
 	position: relative;
 	@include blur(url('../img/Layer_19.jpg'));
+	h2 {
+		visibility: hidden;
+	}
 	&__wrapper {
 		display: flex;
 		flex-direction: column;

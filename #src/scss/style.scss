@@ -110,6 +110,26 @@ button {
 	text-align: center;
 }
 
+.active-burger {
+	&:first-child {
+		transform: rotate(45deg) translate(8px, 9px);
+	}
+	&:nth-child(2) {
+		display: none;
+	}
+	&:last-child {
+		transform: rotate(-45deg);
+	}
+};
+
+.active-menu {
+	left: 0 !important;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
 
 @import "normalize";
 @import "header";
@@ -123,3 +143,4 @@ button {
 @import "feedback";
 @import "questions";
 @import "footer";
+@import "media";

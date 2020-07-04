@@ -19,6 +19,7 @@
 		list-style-type: none;
 		font-family: "Roboto-Light";
 		font-size: 15px;
+		transition: all 0.6s linear;
 	}
 	&__items {
 		margin: 0 10px;
@@ -111,6 +112,7 @@
 			flex-wrap: wrap;
 			margin-top: 40px;
 			color: #fff;
+			list-style-type: none;
 		}
 		&__items {
 			text-align: center;
@@ -126,6 +128,19 @@
 			img {
 				width: 100%;
 			}
+		}
+	}
+	&__burger {
+		display: none;
+		position: absolute;
+		top: 60px;
+		right: 20px;
+		.burger-line {
+			width: 40px;
+			height: 2px;
+			background-color: #fff;
+			margin-top: 10px;
+			transition: all 0.2s linear;
 		}
 	}
 }

@@ -71,5 +71,34 @@ window.addEventListener('DOMContentLoaded', () => {
 		}
 		showSlider(counter);
 	})
+
+
+	// Меню 
+
+	const headerBurger = document.querySelector('.header__burger'),
+		  burgerLine = document.querySelectorAll('.burger-line'),
+		  headerList = document.querySelector('.header__list'),
+		  headerLink = document.querySelectorAll('.header__link');
+
+	headerBurger.addEventListener('click', () => {
+		document.querySelector('body').classList.toggle('overflow');
+		burgerLine.forEach(item => {
+			item.classList.toggle('active-burger');
+			headerList.classList.toggle('active-menu');
+		})
+	})
+
+	headerLink.forEach(item => {
+
+		item.addEventListener('click', () => {
+			document.querySelector('body').classList.remove('overflow');
+			headerList.classList.remove('active-menu');
+
+			burgerLine.forEach(item => {
+				item.classList.remove('active-burger');
+			})
+		})
+	})
+
 })
 
